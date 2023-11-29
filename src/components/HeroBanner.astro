@@ -5,13 +5,13 @@ import Image from "./Image.astro";
 
 import { slug as slugger } from "../utils/slug";
 
-let src = "cloudinary/okikio/okiki-ojo";
+let src = "cloudinary/v1701264842/hadzami";
 let cloudinaryTest = /^cloudinary\//.test(src);
 let fetchTest = /\/fetch\//.test(src);
 
 // Netlify redirects can't handle multiple requests at once
 // import.meta.env.PUBLIC_DEV.toString() == "false" && /okiki\-ojo$/.test(src) ? `https://okikio.dev/images/` : 
-let origin = (`https://res.cloudinary.com/okikio-assets/image/`) + (fetchTest ? "fetch/" : "upload/");
+let origin = (`https://res.cloudinary.com/hadzami-assets/image/`) + (fetchTest ? "fetch/" : "upload/");
 let urlParse = (filters = "w_auto") =>
   cloudinaryTest
     ? `${origin + (fetchTest ? "" : "f_auto,q_auto:best,c_limit/" + filters + ",dpr_auto/")}${src.replace(
@@ -20,19 +20,19 @@ let urlParse = (filters = "w_auto") =>
       )}`
     : src;
 
+console.log(urlParse(`w_auto`))
 let imageFormat = fetchTest ? "" : ".webp";
 let srcset = `${urlParse(`w_auto`) + imageFormat} 100w, ${urlParse(`w_250`) + imageFormat} 200w, ${urlParse(`w_450`) + imageFormat} 600w`;
 let sizes = `(max-width: 600px) 250px, (max-width: 1024px) 450px`;
 ---
-
 <header class="content" role="banner" nav-section="index" data-perspective-group>
   <div class="container" id="index">
-    <div class="layout">
+    <div class="layout">  
       <div class="z-10" data-perspective="header">
         <h1>
-          Hello, I am <strong class="text-primary" aria-label="Okiki Ojo">Okiki.</strong>
+          Hello, I am <strong class="text-primary" aria-label="Okiki Ojo">Hadzami.</strong>
         </h1>
-        <h2>Web Developer - Open Source Steward - Student</h2>
+        <h2>Web Developer - Problem Solver - Computer Science Student</h2>
       </div>
       <Image
         src={src}
@@ -56,10 +56,10 @@ let sizes = `(max-width: 600px) 250px, (max-width: 1024px) 450px`;
       <div class="social-layout" data-perspective="social-links">
         {() => {
           let links = {
-            LinkedIn: ["In", "https://www.linkedin.com/in/okikio"],
-            Twitter: ["Tw", "https://twitter.com/okikio_dev"],
-            GitHub: ["Git", "https://github.com/okikio"],
-            Email: ["@", "mailto:hey@okikio.dev"],
+            LinkedIn: ["In", "https://www.linkedin.com/in/hadzami"],
+            Twitter: ["Tw", "https://twitter.com/hadzamis"],
+            GitHub: ["Git", "https://github.com/hadhaz"],
+            Email: ["@", "mailto:hadzami.id@gmail.com"],
           };
 
           return Object.keys(links).map((name) => {

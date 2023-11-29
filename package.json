@@ -1,19 +1,19 @@
 {
-  "name": "@okikio/portfolio",
+  "name": "@hadzami/portfolio",
   "version": "0.0.1",
   "type": "module",
   "private": true,
   "author": {
-    "name": "Okiki Ojo",
-    "email": "hey@okikio.dev",
-    "url": "https://okikio.dev"
+    "name": "Achmad Hadzami Setiawan",
+    "email": "hey@hadza.me",
+    "url": "https://hadza.me"
   },
-  "copyright": "Okiki Ojo",
-  "homepage": "https://okikio.dev/",
-  "github": "https://github.com/okikio/okikio/",
+  "copyright": "Hadzami Setiawan",
+  "homepage": "https://hadza.me/",
+  "github": "https://github.com/hadhaz/hadhaz/",
   "license": "AGPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/okikio/okikio/issues"
+    "url": "https://github.com/hadhaz/hadhaz/issues"
   },
   "scripts": {
     "dev": "astro dev",
