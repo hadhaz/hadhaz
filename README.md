@@ -1,37 +1,21 @@
-[Portfolio](https://okikio.dev) \| [About](#about) \| [Contact](#contact) \| [Blog](https://blog.okikio.dev)
+# 💫 About Me:
 
-# Hello, I’m **Okiki.**
+I'm computer science students who likes type some stuff in javascript.
 
-<div style="display:flex">
+## 🌐 Socials:
 
-<!-- ![A black and white profile photo of Okiki Ojo, smiling, looking straight forward, behind a brick wall backdrop. He is wearing glasses, a black shirt and jacket, and wireless headphones which are hanging on his neck.](https://okikio.dev/images/upload/f_auto,q_auto:best,c_limit/w_400,dpr_auto/okikio/okiki-ojo.jpg) -->
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/hzmisetiawan) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/achmad-hadzami-setiawan-0b7549230/) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/hadzamis)
 
- </div>
+# 💻 Tech Stack:
 
-## About.
+![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=plastic&logo=latex&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=plastic&logo=typescript&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=plastic&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=java&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=plastic&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=plastic&logo=heroku&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=plastic&logo=firebase) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=plastic&logo=express&logoColor=%2361DAFB) ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=plastic&logo=material-ui&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=plastic&logo=npm&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=plastic&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=plastic&logo=react-router&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=plastic&logo=redux&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=plastic&logo=tailwind-css&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=plastic&logo=figma&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=postman&logoColor=white)
 
-Hey, I am Okiki Ojo (pronounced O-key-key O-jo), I'm a Software Engineering student, a web developer, an avid fan of open source, and a maintainer on **[@withastro](https://github.com/withastro)**, who is currently working as a Software Engineering at **[@vercel](https://github.com/vercel)**. I am always eager to take on new challenges, and aim to exceed in all tasks I take on.
+# 📊 GitHub Stats:
 
-### Skills
+![](https://github-readme-stats.vercel.app/api?username=hadhaz&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=hadhaz&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=hadhaz&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-I have experience in Astro, Next.js, React, Javascript, Typescript, CSS/SASS, HTML, Pug, Node.js, Fastify, Pjax, Solid.js, Svelte, C#, C++, and more… All in all, I prefer to learn skills as I need them, so I can focus on finding solutions to problems.
+---
 
-## Featured Projects.
-
-| [bundlejs](https://bundlejs.com)                         | [inthistweet](https://inthistweet.app/)                               | [reindeere](https://reindeere.ca)                     | [jabodent](https://jabodent.com)                   | [josephojo](https://josephojo.com)                      |
-| :------------------------------------------------------- | :-------------------------------------------------------------------- | :---------------------------------------------------- | :------------------------------------------------- | :------------------------------------------------------ |
-| [transferables](https://github.com/okikio/transferables) | [spring-easing](https://spring-easing.okikio.dev)                     | [@okikio/animate](https://native.okikio.dev/animate)  | [@okikio/native](https://native.okikio.dev/native) | [@okikio/sharedworker](https://sharedworker.okikio.dev) |
-| [Codepen Projects](https://codepen.com/okikio)           | [Legacy Projects](https://www.khanacademy.org/profile/liteo/projects) | [More...](https://github.com/okikio?tab=repositories) |                                                    |                                                         |
-
-## Contact.
-
-| [LinkedIn](https://www.linkedin.com/in/okikio)         | [Twitter](https://twitter.com/okikio_dev) | [Reddit](https://www.reddit.com/user/okikio_dev)        | [Blog](https://blog.okikio.dev)                                              |
-| :----------------------------------------------------- | :---------------------------------------- | :------------------------------------------------------ | :--------------------------------------------------------------------------- |
-| [GitHub](https://github.com/okikio)                    | [Dev.to](https://dev.to/okikio)           | [Hackernoon](https://hackernoon.com/u/okikio)           | [CSS-Tricks](https://css-tricks.com/author/okikiojo/)                        |
-| [Codepen](https://codepen.io/okikio)                   | [Daily.dev](https://app.daily.dev/okikio) | [Product Hunt](https://www.producthunt.com/@okiki_ojo)  | [Stackoverflow](https://stackoverflow.com/users/12140185/okikio?tab=profile) |
-| [Buy me a coffee](https://www.buymeacoffee.com/okikio) | [Email](mailto:hey@okikio.dev)            | [@inthistweet_dev](https://twitter.com/inthistweet_dev) | [@jsbundle](https://twitter.com/jsbundle)                                    |
-| [Mastodon](https://uiuxdev.social/@okikio_dev)         |                                           |                                                         |
-
-This is licenced using [GNU General Public License v3.0 (GPLv3)](./LICENCE.md).
-
-**© 2023 Okiki Ojo. All rights reserved.**
+[![](https://visitcount.itsvg.in/api?id=hadhaz&icon=0&color=1)](https://visitcount.itsvg.in)
