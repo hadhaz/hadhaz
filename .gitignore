@@ -1,6 +1,9 @@
 # build output
 dist
 
+# visual studio history
+.history/
+
 # dependencies
 node_modules/
 .snowpack/
