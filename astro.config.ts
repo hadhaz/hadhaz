@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 import autoAdapater from "astro-auto-adapter";
@@ -8,7 +8,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://okikio.dev",
+  site: "https://hadza.me",
   output: "hybrid",
   integrations: [
     sitemap(),
@@ -19,8 +19,7 @@ export default defineConfig({
   adapter: await autoAdapater(),
   vite: {
     ssr: {
-      
-      external: ["svgo"]
-    }
-  }
+      external: ["svgo"],
+    },
+  },
 });

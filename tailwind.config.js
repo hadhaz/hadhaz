@@ -24,24 +24,22 @@ export default {
         "lt-md": { max: "767px" },
         "lt-sm": { max: "639px" },
 
-        "xsm": "439px",
+        xsm: "439px",
         "lt-xsm": { max: "439px" },
 
-        "xxsm": "339px",
+        xxsm: "339px",
         "lt-xxsm": { max: "339px" },
 
-        'coarse': { 'raw': '(pointer: coarse)' },
-        'fine': { 'raw': '(pointer: fine)' },
+        coarse: { raw: "(pointer: coarse)" },
+        fine: { raw: "(pointer: fine)" },
       },
       container: {
         center: "true",
       },
       colors: {
-        primary: "#ffff00"
-      }
+        primary: "#9AE8FF",
+      },
     },
   },
-  plugins: [
-    Typography({ target: "modern" })
-  ],
+  plugins: [Typography({ target: "modern" })],
 };
