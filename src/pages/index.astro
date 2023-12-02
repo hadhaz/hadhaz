@@ -111,148 +111,88 @@ export const prerender = true;
     <div class="container px-5 max-w-[105ch]">
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
         {() => {
-          let externalIcon = `<svg viewBox="0 0 24 24" class="astro-6H36LA55 inline-block w-[1em] h-[1em]" astro-icon="fluent:arrow-up-right-24-filled"><path fill="#9AE8FF" d="M11 3a1 1 0 1 0 0 2h6.586L3.293 19.293a1 1 0 1 0 1.414 1.414L19 6.414V13a1 1 0 1 0 2 0V4a1 1 0 0 0-1-1h-9z"></path></svg>" d="M11 3a1 1 0 1 0 0 2h6.586L3.293 19.293a1 1 0 1 0 1.414 1.414L19 6.414V13a1 1 0 1 0 2 0V4a1 1 0 0 0-1-1h-9z"></path></svg>`;
+          let externalIcon = `<svg viewBox="0 0 24 24" class="astro-6H36LA55 inline-block w-[1em] h-[1em]" astro-icon="fluent:arrow-up-right-24-filled"><path fill="#9AE8FF" d="M11 3a1 1 0 1 0 0 2h6.586L3.293 19.293a1 1 0 1 0 1.414 1.414L19 6.414V13a1 1 0 1 0 2 0V4a1 1 0 0 0-1-1h-9z"></path></svg>`;
           let projects = {
-            bundlejs: {
+            "himakom official website": {
               image: {
-                src: "cloudinary/okikio/bundlejs.netlify.app_",
-                alt: "The banner image for 'bundlejs.com'. It has a blue box with the letter 'b' inside it, the blue box is the logo, offset by a bit, with the text 'bundlejs' in the center.",
+                src: "cloudinary/v1701504047/project3",
+                alt: "The banner image for 'himakom official website'. It has the Jabodent logo offset left by a small amount, with the text 'Jabodent' in the center.",
+                width: "450",
+                height: "350",
+              },
+              description: "The website for Himpunan Ilmu Komputer UGM.",
+              link: "https://himakom.ugm.ac.id/main/",
+            },
+            "AA-shopping": {
+              image: {
+                src: "cloudinary/v1701504588/project6",
+                alt: "The banner image for 'AA-Shopping'. It has the text 'AA-Shopping' in the center, with 'transfer' being blue, the rest of the text being white and the background being black.",
+                width: "450",
+                height: "350",
+              },
+              description: "The website for a Software Engineering Workshop Final Project",
+              link: "https://e-commerce-aas6.vercel.app/",
+            },
+            golat: {
+              image: {
+                src: "cloudinary/v1701504436/project4",
+                alt: "The banner image for 'golat'. It has a cartoonified image of a reindeer offset left by a small amount, with the text 'Reindeere' in the center (note, in the banner image reindeere has an extra 'e' on the end).",
                 width: "450",
                 height: "350",
               },
               description:
-                "An online tool to quickly and easily bundle, minify, and compress your ts, js, jsx and npm projects, while viewing the file size of the final bundle.",
-              link: "https://bundlejs.com",
+                "The website for a Front-End Development Final Project",
+              link: "https://golat-cafe.vercel.app/",
             },
-
-            inthistweet: {
+            jango: {
               image: {
-                src: "cloudinary/okikio/inthistweet.app_",
-                alt: "The banner image for 'inthistweet.app'. It has the In This Tweet logo offset left by a small amount, with the text 'inthistweet.app' in the center.",
+                src: "cloudinary/v1701504576/project5",
+                alt: "The banner image for 'jango'. It has an image of Joseph Ojo, smiling staring straight forward. He is wearing a dark gray suit with glasses.",
                 width: "450",
                 height: "350",
               },
-              description: "✨ Futuristic ✨ twitter image, gif and video downloader. Enter a Tweet URL, click search, and download the image/videos in it.",
-              link: "https://inthistweet.app",
+              description: "A GPT-3 empowered website for personal public speaking training.",
+              link: "https://findit-jango.vercel.app/",
             },
-
-            jabodent: {
+            "pemira himakom": {
               image: {
-                src: "cloudinary/okikio/jabodent.com_",
-                alt: "The banner image for 'jabodent.com'. It has the Jabodent logo offset left by a small amount, with the text 'Jabodent' in the center.",
-                width: "450",
-                height: "350",
-              },
-              description: "The website for Jabodent Offshore Consultants.",
-              link: "https://jabodent.com",
-            },
-
-            reindeere: {
-              image: {
-                src: "cloudinary/okikio/reindeere.ca_",
-                alt: "The banner image for 'reindeere.ca'. It has a cartoonified image of a reindeer offset left by a small amount, with the text 'Reindeere' in the center (note, in the banner image reindeere has an extra 'e' on the end).",
+                src: "cloudinary/v1701505047/project1",
+                alt: "The banner image for 'Pemira Himakom'. It has a blue box with the letter 'b' inside it, the blue box is the logo, offset by a bit, with the text 'AA Shopping' in the center.",
                 width: "450",
                 height: "350",
               },
               description:
-                "The website for a startup focused on local delivery using robots.",
-              link: "https://reindeere.ca",
+                "A platform seamlessly connecting payment gateway services, shipment APIs, and backend services for efficient e-commerce operations.",
+              link: "https://github.com/Pemira-Himakom/web-pemira-2022",
             },
 
-            joesphojo: {
+            "old personal website": {
               image: {
-                src: "cloudinary/okikio/josephojo.com_",
-                alt: "The banner image for 'josephojo.com'. It has an image of Joseph Ojo, smiling staring straight forward. He is wearing a dark gray suit with glasses.",
+                src: "cloudinary/v1701503949/project2",
+                alt: "The banner image for 'old personal web'. It has the In This Tweet logo offset left by a small amount, with the text 'inthistweet.app' in the center.",
                 width: "450",
                 height: "350",
               },
-              description: "An engineering portfolio site for a Joseph Ojo.",
-              link: "https://josephojo.com/",
+              description: "An interactive personal website that invites users to engage through comments, idea sharing, and a wiki-like experience",
+              link: "https://hazami.vercel.app/",
             },
+            
 
-            transferables: {
-              image: {
-                src: "cloudinary/okikio/transferables",
-                alt: "The banner image for 'transferables'. It has the text 'transferables' in the center, with 'transfer' being blue, the rest of the text being white and the background being black.",
-                width: "450",
-                height: "350",
-              },
-              description: "Utility library that lists out all transferable objects that can be transfered between Workers and the main thread",
-              link: "https://github.com/okikio/transferables",
-            },
+            
 
-            "spring-easing": {
+            
+
+            calico: {
               image: {
-                src: "cloudinary/okikio/spring-easing",
-                alt: "The banner image for 'spring-easing'. It just has the text 'spring-easing' in the center, with a blue dash separating the words 'spring' and 'easing', the rest of the text being white and the background being black.",
+                src: "cloudinary/v1701504897/project7",
+                alt: "The banner image for 'Calico'. It just has the text 'Calico' in the center, with a blue dash separating the words 'spring' and 'easing', the rest of the text being white and the background being black.",
                 width: "450",
                 height: "350",
               },
               description:
-                "Quick and easy spring animation. Works with other animation libraries (gsap, animejs, framer motion, motion one, @okikio/animate, etc...) or the Web Animation API (WAAPI).",
-              link: "https://spring-easing.okikio.dev",
+                "Personalized mental support Chatbot.",
+              link: "https://github.com/Zem-Jos/calico",
             },
-
-            "@okikio/animate": {
-              image: {
-                src: "cloudinary/okikio/animate",
-                alt: "The banner image for '@okikio/animate'. It just has the text '@okikio/animate' in the center, with '@' being blue, the rest of the text being white and the background being black.",
-                width: "450",
-                height: "350",
-              },
-              description:
-                "An animation library that utilizes the Web Animation API (WAAPI) to deliver fluid animations at a semi-small size.",
-              link: "https://native.okikio.dev/animate",
-            },
-
-            "@okikio/native": {
-              image: {
-                src: "cloudinary/okikio/native",
-                alt: "The banner image for '@okikio/native'. It just has the text '@okikio/native' in the center, with '@' being blue, the rest of the text being white and the background being black.",
-                width: "450",
-                height: "350",
-              },
-              description:
-                "A js framework for creating coordinated web experience through composable services.",
-              link: "https://native.okikio.dev/native",
-            },
-
-            "@okikio/sharedworker": {
-              image: {
-                src: "cloudinary/okikio/sharedworker",
-                alt: "The banner image for '@okikio/sharedworker'. It just has the text '@okikio/sharedworker' in the center, with '@' being blue, the rest of the text being white and the background being black.",
-                width: "450",
-                height: "350",
-              },
-              description:
-                "A small mostly spec. compliant polyfill/ponyfill for SharedWorkers, it acts as a drop in replacement for normal Workers.",
-              link: "https://sharedworker.okikio.dev",
-            },
-
-            "Codepen Projects": {
-              image: {
-                src: "cloudinary/okikio/Codepen",
-                alt: "A banner image for 'Codepen'. It has the Codepen logo offset left by a small amount, with the text 'Codepen' in the center. The text is white and the background is black.",
-                width: "450",
-                height: "350",
-              },
-              description:
-                "A set of small snippets, mini-projects and experiments, that I created on Codepen.",
-              link: "https://codepen.com/okikio",
-            },
-
-            "Legacy Projects": {
-              image: {
-                src: "cloudinary/okikio/Khanacademy",
-                alt: "A banner image for 'Khan Academy'. It has the Khan Academy logo offset left by a small amount, with the text 'Khan Academy' in the center. The text is white and the background is black. The logo is a green hexagon with a black cartoonified leaf.",
-                width: "450",
-                height: "350",
-              },
-              description:
-                "When I first started out programming these are the projects I worked on before I got OSS work. Back then I used to use 'whitelight' as my username, 🤣.",
-              link: "https://www.khanacademy.org/profile/liteo/projects",
-            },
-
             ["More... " + externalIcon]: {
               showTitle: true,
               image: {
@@ -261,7 +201,7 @@ export const prerender = true;
                 blank: true,
               },
               description: "Check out more Projects on GitHub.",
-              link: "https://github.com/okikio",
+              link: "https://github.com/hadhaz",
             },
           };
 
@@ -294,24 +234,12 @@ export const prerender = true;
       >
         {() => {
           let links = {
-            LinkedIn: "https://www.linkedin.com/in/okikio",
-            Twitter: "https://twitter.com/okikio_dev",
-            Reddit: "https://www.reddit.com/user/okikio_dev",
-            GitHub: "https://github.com/okikio",
-            Blog: "https://blog.okikio.dev",
-            "Dev.to": "https://dev.to/okikio",
-            Hackernoon: "https://hackernoon.com/u/okikio",
-            "CSS-Tricks": "https://css-tricks.com/author/okikiojo/",
-            Codepen: "https://codepen.io/okikio",
-            "Daily.dev": "https://app.daily.dev/okikio",
-            "Product Hunt": "https://www.producthunt.com/@okiki_ojo",
-            Stackoverflow:
-              "https://stackoverflow.com/users/12140185/okikio?tab=profile",
-            "Buy me a coffee": "https://www.buymeacoffee.com/okikio",
-            "Bluesky (@okikio.dev)": "https://bsky.app/profile/okikio.dev",
-            Email: "mailto:hey@okikio.dev",
-            "@inthistweet_dev": "https://twitter.com/inthistweet_dev", 
-            "@jsbundle": "https://twitter.com/jsbundle",
+            LinkedIn: "https://www.linkedin.com/in/hadzami",
+            Twitter: "https://twitter.com/hadzamis",
+            GitHub: "https://github.com/hadhaz",
+            Blog: "https://blog.hadza.me",
+            Email: "mailto:hey@hadza.me",
+            Instagram: "https://instagram.com/hdzmstwn",
           };
 
           return Object.keys(links).map((name) => {
